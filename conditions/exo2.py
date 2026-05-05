@@ -1,3 +1,7 @@
+#Créez un programme qui convertit une note numérique en une note alphabétique en utilisant une échelle de notation
+#standard. Utilisez des correspondances pour déterminer la note alphabétique correspondante en fonction de la note
+#numérique.
+
 note = int(input("Introduisez votre note entre 0 et 20 :\n"))
 
 match note:

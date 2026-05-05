@@ -1,3 +1,6 @@
+#Créez un programme qui génère un nombre aléatoire (import random) et permet à l'utilisateur de deviner ce nombre.
+#Utilisez des correspondances pour comparer la devinette de l'utilisateur avec le nombre généré et fournir des indices.
+
 import random
 nombre_a_deviner = random.randint(1,10)
 guess = int(input("Devinez le chiffre (1-10):\n"))

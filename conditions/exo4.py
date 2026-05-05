@@ -1,3 +1,6 @@
+#Créez un programme qui génère un nombre aléatoire (import random) et permet à l'utilisateur de deviner ce nombre.
+#Utilisez des correspondances pour comparer la devinette de l'utilisateur avec le nombre généré et fournir des indices.
+
 taille = int(input("Quelle taille faites-vous (en cm)? \n "))
 poids = int(input("Quel poids faites-vous (en kg) ? \n"))
 
