@@ -53,3 +53,6 @@ while commande:
     print(f"Souper : {nom_souper}\n\n\n")
     i = i +1
     commande = input("Voulez-vous choisir vos plats pour un autre jour?\n 1. Oui 2. Non\n") == "1"
+    if i >= 7:
+        print("Les menus ne sont disponible qu'une semaine à la fois")
+        break
