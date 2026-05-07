@@ -11,3 +11,5 @@ fruits = {
 demande = input("Pour quel fruit souhaitez vous connaître le prix? \n Choix possibles : pomme, banane, poire, orange\n" )
 if demande in fruits:
     print(fruits.get(demande), "€")
+else:
+    print("Ce fruit n'est pas dans la liste")
