@@ -92,4 +92,3 @@ for cle, valeur in personne.items():
     print(f"-{cle} ==> {valeur}")
 
 #endregion
-
